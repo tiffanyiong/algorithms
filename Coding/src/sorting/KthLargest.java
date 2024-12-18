@@ -1,6 +1,7 @@
 package sorting;
 
 // https://leetcode.cn/problems/kth-largest-element-in-an-array/
+// 隨機選擇，這版能做到O(n), 因為分了三個區域後只選一個部份繼續partition
 public class KthLargest {
 
     public static void main(String[] args) {
