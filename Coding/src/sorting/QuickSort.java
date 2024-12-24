@@ -7,7 +7,7 @@ public class QuickSort {
     static int[] arr = new int[MAXN];
 
 
-    // 隨紅快排經典版本 - 沒有分出三個區域的版本： <x  x  >x
+    // 隨機快排經典版本 - 沒有分出三個區域的版本： <x  x  >x
     public static void quickSort1(int l, int r) {
         // l == r 只有一個數
         // l > r, 範圍不存在 不用管
