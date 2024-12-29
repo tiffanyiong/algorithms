@@ -41,9 +41,9 @@ class Node {
             cur = next;
         }
 
-        // 把鏈錶分離
+        // 把新舊鏈錶分離
         Node newHead = head.next; // 1    ->  1'         -> 2   -> 2'
-        // head    (head.next)
+                                  // head    (head.next)
         cur = head;
         while (cur != null) {
             next = cur.next.next; // 2
